@@ -29,7 +29,7 @@ body {
   position: fixed;
   width: 45px;
   height: 45px;
-  left: 10px;
+  left: 16px;
   top: 10px;  
 }
 
@@ -37,7 +37,7 @@ body {
   position: fixed;
   width: 45px;
   height: 45px;
-  left: 10px;
+  left: 16px;
   top: 10px;  
 }
 
@@ -57,6 +57,23 @@ body {
   top: 440px;
 
   mix-blend-mode: screen;
+}
+
+.star2 {
+  position: absolute;
+  width: 180;
+  height: 180;
+  right: -69px;
+  top: -103px;
+}
+
+.mephoto-star2 {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  top: 540px;
+  overflow: hidden;
+
 }
 
 .mephoto-image {
@@ -283,7 +300,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 16px 40px;
+  padding: 80px 16px 40px;
   gap: 40px;
 
   background: #FBF8F9;
