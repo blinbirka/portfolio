@@ -82,8 +82,35 @@ body {
   object-fit:cover;
 }
 
-.designer-label {
-  width: 100%;
+.productdesigner-label {
+  position: absolute;
+  width: 87vw;
+  left: 20px;
+  top: 133.33px;
+  object-fit: cover;
+}
+
+.anyadorogova-label {
+  position: absolute;
+  width: 62vw;
+  left: 32px;
+  top: 254px;
+  object-fit: cover;
+}
+
+.bluesharp {
+  position: absolute;
+  width: 27vw;
+  right: 14px;
+  top: 215px;
+  object-fit: cover;
+}
+
+.pinkharp {
+  position: absolute;
+  width: 25vw;
+  left: 16px;
+  top: 89px;
   object-fit: cover;
 }
 
@@ -392,6 +419,15 @@ body {
 /* Separate projects page */
 /* Insomnia */
 
+.container-sub-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
 .container-subH-text {
   display: flex;
   flex-direction: column;
@@ -464,6 +500,21 @@ body {
   
   flex: none;
   order: 1;
+  flex-grow: 0;
+}
+.dottext-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+
+.dottext {
+  align-items: flex-start;
+  padding: 0px 0px 0px 46px;
+  
+  flex: none;
   flex-grow: 0;
 }
 
